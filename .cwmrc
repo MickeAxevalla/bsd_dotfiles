@@ -103,10 +103,8 @@ bind-key 4-c window-htile
 
 # mod + / = show popup menu of current windows
 bind-key 4-slash menu-window
-# mod + d = show popup menu to run a command (configured below)
-bind-key 4-d menu-cmd
-# mod + ? = show popup menu to run an arbitrary command
-bind-key 4-question menu-exec
+# mod + d = show popup menu to run an arbitrary command
+bind-key 4-d menu-exec
 # mod + . = show popup menu of known ssh hosts to connect to
 bind-key 4-period menu-ssh
 
@@ -131,7 +129,4 @@ bind-mouse 4-2 window-lower
 # mod + shift + middle click = hide window
 bind-mouse 4S-2 window-hide
 
-# these commands will appear in the command menu
-command xterm  xterm
-command firefox firefox
 
